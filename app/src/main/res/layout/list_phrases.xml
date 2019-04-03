@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:id="@+id/list_phrases">
+
+    <TextView
+        android:id="@+id/mewok_phrase_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        tools:text="lutti"
+        />
+    <TextView
+        android:id="@+id/default_phrase_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        tools:text="one"
+        />
+</LinearLayout>
